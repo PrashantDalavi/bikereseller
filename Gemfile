@@ -49,9 +49,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 
 
-group :development, :test do
- 
- 
+group :development, :test do 
   gem "sqlite3", "~> 1.3.6"
 end
 
