@@ -45,3 +45,11 @@ display: block;
   font-size: 20px;
   font-weight: 400;
 }
+
+.carousel-inner img{
+  width: 100vw;
+}
+
+.carousel-caption{
+  font-size: 35px;
+}
