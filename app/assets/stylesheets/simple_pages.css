@@ -53,3 +53,10 @@ display: block;
 .carousel-caption{
   font-size: 35px;
 }
+
+.product_box{
+  border: 1px outset grey;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top:5px;
+}
