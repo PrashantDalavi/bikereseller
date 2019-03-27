@@ -78,3 +78,8 @@ display: block;
   height: 30px;
   border-radius: 10px;
 }
+
+.form-control{
+  width: 75%;
+}
+
