@@ -7,4 +7,10 @@ class UserMailer < ApplicationMailer
            to: 'p.d.dalavi@gmail.com',
            subject: "A new contact form message from #{name}")
     end
+
+    def welcome(user)
+      
+      mail(to: user.email,
+         subject: "Welcome to BikeShop!")
+    end
 end
