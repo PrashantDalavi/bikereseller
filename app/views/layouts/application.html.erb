@@ -14,7 +14,17 @@
   </head>
 
   <body>
+<<<<<<< HEAD
   <p id = "notice"><%= notice %> </p>
+=======
+  <% if notice %>
+    <p id="notice" class="alert alert-primary"><%= notice %></p>
+  <% end %>
+
+  <% if alert %>
+    <p id="notice" class="alert alert-secondary"><%= alert %></p>
+  <% end %>
+>>>>>>> authorization
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
