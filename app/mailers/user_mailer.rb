@@ -10,8 +10,9 @@ class UserMailer < ApplicationMailer
           subject: "Thank you for Contacting Us")
     end
 
-    def welcome(user)      
-      mail(to: user.email,
-         subject: "Welcome to BikeShop!")
+    def signup_form(email)      
+      mail(from: "admin@bikeseller.com",
+           to: email,
+           subject: "Welcome to BikeShop!")
     end
 end
