@@ -1,6 +1,6 @@
 class UserMailerPreview < ActionMailer::Preview
-    def create
-        UserMailer.welcome("john@example.com", "John", "Hello World!")
+    def contact_form
+        UserMailer.contact_form("john@example.com", "John", "Hello World!")
     end
 
 end
