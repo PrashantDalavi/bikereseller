@@ -19,6 +19,5 @@ class Ability
       can :create, Comment, user_id: user.id
       can [:show, :index], Product
     end
-  end
-  
+  end  
 end
