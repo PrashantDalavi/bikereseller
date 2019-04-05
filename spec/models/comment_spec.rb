@@ -27,7 +27,5 @@ describe Product do
         it "is not valid comment without product" do
             expect(Comment.new(user: user, body: "awe", rating: 1)).not_to be_valid        
         end
-
     end
-
 end

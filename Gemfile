@@ -12,7 +12,6 @@ gem 'rails', '~> 5.2.2'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 
-
 group :assets do
     gem 'sass-rails',   '~> 5.0'
     gem 'coffee-rails', '~> 4.2'
@@ -47,8 +46,6 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-
-
 group :development, :test do 
   gem "sqlite3", "~> 1.3.6"
   gem 'rspec-rails', '~> 3.8'
@@ -58,8 +55,6 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'web-console', '>= 3.3.0'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
@@ -78,3 +73,5 @@ gem 'devise'
 gem 'cancancan', '~> 1.10'
 
 gem 'will_paginate', '~> 3.1.0'
+
+gem 'rails-controller-testing'
