@@ -14,7 +14,6 @@ class PaymentsController < ApplicationController
             description: params[:stripeEmail],
             receipt_email: params[:stripeEmail]
           )
-
           if charge.paid
             Order.create(product_id: @product.id,user_id: @user.id, total: @product.price)
             flash[:success] = "Your payment was successfull"
