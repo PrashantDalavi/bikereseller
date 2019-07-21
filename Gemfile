@@ -80,3 +80,6 @@ gem 'rails-controller-testing'
 gem 'stripe'
 
 gem 'byebug'
+
+gem 'redis-rails'
+
